@@ -1,0 +1,33 @@
+table {
+   
+   width: 220px;
+   height: 220px;
+   border: 1px ridge black;
+   border-collapse: collapse;
+
+  }
+ table, td {
+        border: 1px ridge black;
+        column-width: 10px;
+        height: 10px;
+    }
+
+    .red {
+        background-color: red;
+    }   
+
+    .black {
+        background-color: black;
+    }
+
+    .blue {
+        background-color: blue;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+
+    .white {
+        background-color: white;
+    }

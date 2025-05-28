@@ -10,4 +10,6 @@ Note: Visit http://en.wikipedia.org/wiki/Piet_Mondrian if you aren't familiar w/
 
 Hint: 4 Mondrian-inspired colors(red, blue, yellow, black, white)
 
-Table should look like this: <img src="/mondrian-table.png">
+Table should look like this: 
+
+<img src="/mondrian-table.png">

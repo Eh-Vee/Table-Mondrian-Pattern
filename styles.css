@@ -7,9 +7,9 @@ table {
 
   }
  table, td {
-        border: 1px ridge black;
-        column-width: 10px;
-        height: 10px;
+        border: 2px ridge black;
+        column-width: 250px;
+        height: 20px;
     }
 
     .red {

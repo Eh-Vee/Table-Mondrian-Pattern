@@ -1,33 +1,121 @@
 table {
-   
-   width: 220px;
-   height: 220px;
-   border: 1px ridge black;
-   border-collapse: collapse;
+  width: 300px;
+  border: 1px ridge black;
+  border-collapse: collapse;
+}
+table,
+td {
+  border: 2px ridge black;
+  column-width: 250px;
+  height: 20px;
+}
 
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.white {
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* padding for whole body */
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: grey;
+}
+
+/* styling body */
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  color: black;
+}
+
+/* anchor tag decoration */
+
+/* row and column decoration */
+.row {
+  margin: 0px -10px;
+  padding: 8px;
+}
+
+.row > .column {
+  padding: 6px;
+}
+
+.column {
+  float: left;
+  width: fit-content;
+  position: relative;
+  /* Add position relative */
+  transition: all 3s ease;
+  /* Smooth transition */
+}
+
+/*  .column:hover {
+            width: 25%;
+            top: -20px;
+            
+            box-shadow: 0 14px 8px rgba(0, 128, 0, 0.5);
+            
+        } */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  padding: 10px;
+  /*   border: 1px solid gray; */
+}
+
+/* window size 850 width set */
+@media screen and (max-width: 850px) {
+  .column {
+    width: 50%;
   }
- table, td {
-        border: 2px ridge black;
-        column-width: 250px;
-        height: 20px;
-    }
+}
 
-    .red {
-        background-color: red;
-    }   
+/* window size 400 width set */
+@media screen and (max-width: 400px) {
+  .column {
+    width: 100%;
+  }
+}
 
-    .black {
-        background-color: black;
-    }
+.title {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 15%;
+}
 
-    .blue {
-        background-color: blue;
-    }
+.title h1 {
+  color: black;
+}
 
-    .yellow {
-        background-color: yellow;
-    }
-
-    .white {
-        background-color: white;
-    }
+img {
+  border: 5px ridge slateblue;
+}
